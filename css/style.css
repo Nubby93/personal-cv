@@ -26,8 +26,7 @@
     font-weight: bold;
  }
 
- h2 {
- }
+ 
 
  h5 {
     font-weight: 600;
@@ -243,8 +242,70 @@ section {
 
 
 
-/* 07. Art
+/* 07. Portofolio
  * =================================================================== */
+ 
+
+
+
+.filtermenu {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+/* .filtermenu li {
+  border: 1px solid #CCC;
+  padding: 4px 12px;
+  display: inline-block;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+  margin: 5px;
+} */
+
+.filtermenu li {
+  line-height: 1.6em;
+  color: #726F77;
+  background-color: #efefef;
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 3px 3px 0 0;
+  margin: 0px 5px;
+  
+}
+
+.filtermenu li.active {
+  background: #1abc9c;
+  color: #fff;
+}
+
+.portofolio-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 230px;
+  margin: 10px;
+}
+/* .post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+} */
+.post-thumb {
+  margin-bottom: 10px;
+}
+/* .post-txt {
+  font-size: 12px;
+} */
+
 
 /* 08. Footer
  * =================================================================== */
