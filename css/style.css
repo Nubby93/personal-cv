@@ -1,0 +1,488 @@
+/**
+ *  01. Global Styles
+ *  02. Intro
+ *  03. Social Icons
+ *  04. Icon Fonts
+ *  05. Section Styles
+ *  06. Timeline Styles
+ *  07. Art
+ *  08. Footer
+ EXTRAS
+
+ * =================================================================== 
+ */
+
+/* 01. Basic Styles
+ * =================================================================== */
+
+ html {
+    overflow-x: hidden;
+ }
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ h1 {
+    font-weight: bold;
+ }
+
+ h2 {
+ }
+
+ h5 {
+    font-weight: 600;
+ }
+
+ a {
+    cursor: pointer;
+    color: #1abc9c;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration:none;
+    color: #1abc9c;
+    opacity: 0.9;
+ }
+
+ hr {
+    border-top: 5px solid #1abc9c;
+    width: 80px;
+    padding-bottom: 20px;
+ }
+
+
+ .colour-splash {
+    color: #1abc9c;
+ }
+
+ .section-primary span {
+    color: #1abc9c;
+    font-weight: bolder;
+    opacity: 1;
+ }
+
+
+
+
+
+
+
+
+/* 02. Intro
+ * =================================================================== */
+
+ .section-image {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display:table;
+    background-color: #000;
+ }
+
+ .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .7;
+ }
+
+ .intro {
+    vertical-align: middle;
+    text-align: center;
+    display:table-cell;
+    -webkit-transform: translateY(-2.1rem);
+    -ms-transform: translateY(-2.1rem);
+    transform: translateY(-2.1rem);
+}
+
+.intro .row {
+    margin-right: 0;
+    margin-left:0;
+}
+
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h5 {
+    color: #1abc9c;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-image span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.section-image h1 {
+    margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+
+
+/* 03. Social Icons
+ * =================================================================== */
+
+.social {
+  margin: 0 10px;
+  padding-top: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.social a {
+  color: white;
+  text-decoration:none;
+  padding: 2em;
+}
+
+.social a:hover{
+  opacity: 0.6;
+}
+
+.social-footer {
+    position: block;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
+
+/* 04. Icon Font
+ * =================================================================== */
+
+ .lnr {
+    font-size: 4em !important;
+    color:#fff;
+ }
+
+/* 05. Section Styles
+ * =================================================================== */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profilepic {
+    height: 150px;
+    width: auto;
+    border-radius: 300px;
+}
+
+.section-primary p {
+    text-align: justify;
+}
+
+.section-primary {
+    border: #1abc9c;
+}
+
+.section-colour {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.section-colour p {
+    text-align: justify;
+}
+
+.section-heading .lead, .section-heading h2 {
+    text-align: center;
+}
+
+.section-colour {
+    border: #fff;
+}
+
+.section-colour hr {
+    border-top: 5px solid #fff;
+ }
+
+
+
+/* 01. Timeline Styles
+ * =================================================================== */
+
+.timeline-icon .fa {
+    color: white;
+    margin: 14px;
+    font-size: 1.7em;
+}
+
+#skills {
+    height: auto;
+}
+
+
+
+
+/* 07. Art
+ * =================================================================== */
+
+/* 08. Footer
+ * =================================================================== */
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+footer p {
+    padding: 15px;
+    opacity: 0.8;
+}
+
+
+/* EXTRAS
+ * =================================================================== */
+ .container2{
+     width: 100%;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ .hr-2 {
+    display: flex;
+}
+    
+.hr-2-line {
+    width: 100%;
+    position: relative;
+    margin: 20px;
+    border-bottom: 1px solid #1abc9c;
+
+}
+.hr-text {
+      position: relative;
+      top: 3px;
+      color: #726f77;
+      font-size: 18px;
+}
+ /* Progress bar
+ * =================================================================== */ 
+ 
+ ::selection{
+   color: #fff;
+   background: #6665ee;
+ }
+ .skill-bars{
+   width: 600px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+ }
+ .skill-bars .bar{
+   margin: 20px 0;
+ }
+ .skill-bars .bar:first-child{
+   margin-top: 0px;
+ }
+ .skill-bars .bar .info{
+   margin-bottom: 5px;
+   text-align: left;
+ }
+ .skill-bars .bar .info span{
+   font-weight: 500;
+   font-size: 17px;
+   opacity: 0;
+   animation: showText 0.5s 1s linear forwards;
+ }
+ @keyframes showText {
+   100%{
+     opacity: 1;
+   }
+ }
+ .skill-bars .bar .progress-line{
+   height: 15px;
+   width: 100%;
+   background: #f0f0f0;
+   position: relative;
+   transform: scaleX(0);
+   transform-origin: left;
+   border-radius: 10px;
+   box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+               0 1px rgba(255,255,255,0.8);
+   animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+   
+ }
+ @keyframes animate {
+   100%{
+     transform: scaleX(1);
+   }
+ }
+ .bar .progress-line span{
+   height: 100%;
+   position: absolute;
+   border-radius: 10px;
+   transform: scaleX(0);
+   transform-origin: left;
+   background: #6665ee;
+   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+   left: 0;
+ }
+ .bar .progress-line.html span{
+   width: 90%;
+ }
+ .bar .progress-line.css span{
+   width: 60%;
+ }
+ .bar .progress-line.javascript span{
+   width: 20%;
+ }
+ .bar .progress-line.python span{
+   width: 10%;
+ }
+ .bar .progress-line.illustrator span{
+   width: 75%;
+ }
+ .bar .progress-line.photoshop span{
+    width: 55%;
+ }
+ .bar .progress-line.wordpress span{
+    width: 35%;
+ }
+ .bar .progress-line.phonegap span{
+    width: 45%;
+ }
+/* Uncomment to add % tooltip */
+ /* .progress-line span::before{
+   position: absolute;
+   content: "";
+   top: -10px;
+   right: 0;
+   height: 0;
+   width: 0;
+   border: 7px solid transparent;
+   border-bottom-width: 0px;
+   border-right-width: 0px;
+   border-top-color: #000;
+   opacity: 0;
+   animation: showText2 0.5s 1.5s linear forwards;
+ } */
+ .progress-line span::after{
+   position: absolute;
+   top: -28px;
+   right: 0;
+   font-weight: 500;
+   background: #000;
+   color: #fff;
+   padding: 1px 8px;
+   font-size: 12px;
+   border-radius: 3px;
+   opacity: 0;
+   animation: showText2 0.5s 1.5s linear forwards;
+ }
+ @keyframes showText2 {
+   100%{
+     opacity: 1;
+   }
+ }
+ /* Uncomment to add % tooltip */
+ /* .progress-line.html span::after{
+   content: "90%";
+ }
+ .progress-line.css span::after{
+   content: "60%";
+ }
+ .progress-line.jquery span::after{
+   content: "85%";
+ }
+ .progress-line.python span::after{
+   content: "10%";
+ }
+ .progress-line.mysql span::after{
+   content: "75%";
+ } */
+ 
+
+ 
+/* Media Queries
+ * =================================================================== */
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+
+    .social-footer {
+        text-align: center;
+        position:block;
+        text-align: center;
+    }
+
+    .social-footer a {
+        padding: 0.3em;
+        font-size: 1.6em;
+
+    }
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        font-size: 1em;
+        padding: 0 1px;
+
+}
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    #skills {
+        background-position: top center;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .social-footer {
+        text-align: center;
+    }
+
+    footer p {
+    text-align: center;
+    }
+
+}
+
+
