@@ -408,7 +408,7 @@ footer p {
    border-radius: 10px;
    transform: scaleX(0);
    transform-origin: left;
-   background: #6665ee;
+   background: #1abc9c;
    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
    left: 0;
  }
